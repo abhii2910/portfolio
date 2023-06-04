@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/lo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   
+    <title>Abhishel Baghel</title>
+</head>
+<body> 
+     <div id="header"> 
+         <div class="container">
+            <nav>
+                <img src="images/LOGO.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hlw, I Am <span>Abhishek Baghel</span><br>From India</h1>
+            </div>
+         </div>
+     </div>
+<!-------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/aboutme.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>hlo,my name Abhishek Baghel i m 19 yrs old and i live in delhi. I am currently a third year undergrad engineering student. I have excellent communication skills, enabling me to effectively communicate with a wide range of people. I want to use my knowledge and experience, ultimately benefiting the operations of the organisation that I work for..</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</br></li>
+                        <li><span>Web Development</span><br>Web App Development</br></li>
+                        <li><span>App Development</span><br>Building Android/iOS Apps</br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-current</span><br>UI/UX Design Training</br></li>
+                        <li><span>2019-2021</span><br>Team Leader At StartApp</br></li>
+                        <li><span>2018-2019</span><br>Internship</br></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017-2018</span><br>High School</br></li>
+                        <li><span>2019-2020</span><br>Intermediate</br></li>
+                        <li><span>2020-2024</span><br>Engineering</br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <h2>Web Design</h2>
+                <p>Web designers plan, create and code internet sites and web pages, pictures, graphics and video clips.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>UI/UX Design</h2>
+                <p>UX design involves the design of the entire process of acquiring and integrating the product, including aspects of branding, design, usability and function.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <h2>App Design</h2>
+                <p>mobile designers develop the look and feel of an application, including branding and style.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------PORTFOLIO---------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/1.jpg" width="100%">
+                <div class="layer">
+                   <h3>Social Media App</h3>
+                   <p>it will connect you to around the world</p> 
+                   <a href=""><i class="fa-solid fa-anchor"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/2.jpg"width="100%">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>it will connect you to around the world</p> 
+                    <a href=""><i class="fa-solid fa-anchor"></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="images/3.jpg"width="100%">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>it will connect you to around the world</p> 
+                    <a href=""><i class="fa-solid fa-anchor"></i></a>
+                 </div>
+            </div>
+        </div>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+<!---------------------contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <form>
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> abhibaghel9898@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0123456789</p>
+               <div class="social-icons">
+                    <a href="http://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="http://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    <!-- <a href="http://whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>-->
+                </div> 
+                <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+            </div></form>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Name" required>                 
+                   <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" rows="6" placeholder="Write Your Message Here!"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ <i class="fa-solid fa-heart"></i>Baghel</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        } 
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwg9lM7W6NYwFFSR2PDBM7pgkjTtObSOzcKkfUryXqGYLpGwEiWyPSmvWENxoOfhAYS/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    var sidemenu= document.getElementById("sidemenu");
+    
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+  </script>
+</body>  
+</html>
